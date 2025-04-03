@@ -37,4 +37,17 @@ h3 {
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 20px;
 }
+button {
+    background-color: #a04747;
+    font-size: larger;
+    color: rgb(3, 0, 0);
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
 
+}
