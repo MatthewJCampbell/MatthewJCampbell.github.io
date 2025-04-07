@@ -58,6 +58,12 @@ button {
     border-radius: 10px;
     cursor: pointer;
 }
+
+img.mainImage { 
+    width: 100%;
+    height: auto;
+    opacity: 0.9;
+}
 img {
     display: block;
     margin-left: auto;
@@ -66,7 +72,6 @@ img {
     max-width: 80%;
     height: auto;
     border-radius: 20px;
-
 }
 ol {
     color: rgb(70, 69, 64);
@@ -107,7 +112,7 @@ table {
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 20px;
 }
-.flex-container {
+.flexbox-container {
     display: flex;
     background-color: rgb(70, 69, 64);
     justify-content: center;
