@@ -1,4 +1,10 @@
 
+body {
+    background-color: rgb(185, 178, 160);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    color: rgb(74, 67, 46);
+}
 nav {
     background-color: rgb(74, 67, 46);
     padding: 10px;
@@ -8,9 +14,9 @@ nav {
 }
 nav a {
     color: blanchedalmond;
-    text-decoration: none;
-    padding: 15px;
-    margin: 5px;
+    text-decoration: solid;
+    padding: 20px;
+    margin: 10px;
 }
 h1.title {
     text-align: center;
@@ -56,12 +62,6 @@ button {
     cursor: pointer;
 
 }
-p {
-    text-align: center;
-    color: rgb(67, 58, 39);
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 20px;
-}
 img {
     display: block;
     margin-left: auto;
@@ -92,10 +92,24 @@ td {
 table {
     margin-left: auto;
     margin-right: auto;
+    border-collapse: collapse;
+    width: 50%;
     border: 10px solid rgb(74, 67, 46);
     border-radius: 10px;
     background-color: blanchedalmond;
     padding: 10px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+}
+#navBar {
+    text-align: center;
+    color: rgb(74, 67, 46);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+}
+#main {
+    text-align: center;
+    color: rgb(74, 67, 46);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 20px;
 }
