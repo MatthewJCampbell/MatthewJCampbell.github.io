@@ -122,3 +122,19 @@ table {
     border-radius: 10px;
     flex-wrap: wrap;
 }
+p {
+    text-align: center;
+    color: rgb(70, 69, 64);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    background-color: rgb(219, 219, 219);
+    border-radius: 10px;
+    padding: 10px;
+}
+footer {
+    text-align: center;
+    color: rgb(70, 69, 64);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+}
