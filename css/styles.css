@@ -31,13 +31,11 @@ h1 {
     font-size: 60px;
 }
 h2 {
-    text-align: center; 
     color: blanchedalmond;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 50px;
 }
 h3 {
-    text-align: center;
     color: blanchedalmond;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 30px;
@@ -60,12 +58,16 @@ button {
     text-align: center;
     border-radius: 10px;
     cursor: pointer;
-
 }
 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    align-content: center;
+    max-width: 80%;
+    height: auto;
+    border-radius: 20px;
+
 }
 ol {
     color: rgb(74, 67, 46);
