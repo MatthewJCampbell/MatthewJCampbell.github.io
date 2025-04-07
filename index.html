@@ -14,17 +14,24 @@
         </ul>
     </nav>
     <div><!-- This div includes headings and a photo of a person performing latte art -->
-        <center><h1 class="title" >COFFEE IS AMAZING</h1></center>
-        <center><h1>DRINK IT NOW</h1></center>
+        <h1 class="title" >COFFEE IS AMAZING</h1>
+        <h1>DRINK IT NOW</h1>
 
-        <button onclick="alert('Hey, You Clicked Me!!!')" onmouseover=" "  >CLICK FOR CAFFEINE</button>
+        <button onclick="showMessage()">CLICK FOR CAFFEINE</button>
+        <button onclick="checkAge()">Enter The Party</button>
+        <button onclick="showMany()" >Try To Close</button>
+        <button onclick="changeColor()" >CHANGE COLOR</button>
+        
             <br>
             <br>
-        <center><img width="800" src=pexels-chevanon-302899.jpg alt=”a photo of a person performing latte art”></center>
-        <center><p>Coffee is one of the greatest things on this planet and I look forward to drinking it every morning!</p></center>
+        <img width="800" src=pexels-chevanon-302899.jpg alt=”a photo of a person performing latte art”>
+    <div id="main">
+        <p>Coffee is one of the greatest things on this planet and I look forward to drinking it every morning!</p>
+
+    </div>
     </div>
     <div><!-- This div includes a list of the benefits of coffee -->
-        <h2>Benefits of <span style="color:rgb(103, 81, 1)">Coffee</span>:</h2>   
+        <h2>Benefits of <span style="color:rgb(74, 67, 46)">Coffee</span>:</h2>   
             <ol>
                 <li>It helps you stay awake</li>
                 <li>It helps keep you regular</li>
@@ -32,7 +39,7 @@
             </ol>
     </div>
     <div><!-- This div includes a list of the downsides of coffee -->
-        <h3>Downsides of <span style="color:rgb(103, 81, 1)">Coffee</span>:</h3>
+        <h3>Downsides of <span style="color:rgb(74, 67, 46)">Coffee</span>:</h3>
             <ul>
                 <li>Inability to sleep</li>
                 <li>Tastes bad if prepared wrong</li>
@@ -40,13 +47,13 @@
             </ul>
     </div>
     <div><!-- This div includes a table that shows a few different coffee options around calgary and their quality -->
-        <h4>Where to Get It and The Quality of <span style="color:rgb(103, 81, 1)">Coffee</span>:</h4>
+        <h4>Where to Get It and The Quality of <span style="color:rgb(74, 67, 46)">Coffee</span>:</h4>
        
             <table border="3" radius="10px" >
                 <tr>
-                    <th width="100"><center>Deville</center></th>
-                    <th width="100"><center>Starbucks</center></th>
-                    <th width="100"><center>Tim Hortons</center></th>
+                    <th width="100">Deville</th>
+                    <th width="100">Starbucks</th>
+                    <th width="100">Tim Hortons</th>
                 </tr>
                 <tr>
                     <td>Great</td>
@@ -55,6 +62,12 @@
                 </tr>
             </table>
     </div>
+    <br>
+    <br>
+    <button onclick="changeBeans()"> SWAP BEANS</button>
+    <button onclick="changeToCoffee()"> SWAP COFFEE</button>
+    <img id="coffee" width= 800 src="pexels-igor-haritanovich-814387-1695052.jpg" alt="An image of coffee beans">
+    
     <br>
     <br>
 </body>

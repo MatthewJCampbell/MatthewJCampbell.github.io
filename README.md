@@ -12,3 +12,4 @@
 # added a nav bar
 # got feedback from classmates and lightly adjusted based on the feeback and added more
 # added live-view to VScode and it made coding so much faster for instant feedback
+# added CSS file and connected it 
