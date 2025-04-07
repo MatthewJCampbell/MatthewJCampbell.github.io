@@ -103,15 +103,15 @@ table {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 20px;
 }
-#navBar {
-    text-align: center;
-    color: rgb(74, 67, 46);
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 20px;
-}
 #main {
     text-align: center;
     color: rgb(74, 67, 46);
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 20px;
+}
+.flexbox-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
