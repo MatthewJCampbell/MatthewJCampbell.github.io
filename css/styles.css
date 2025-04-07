@@ -1,48 +1,47 @@
 
 body {
-    background-color: rgb(185, 178, 160);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 20px;
-    color: rgb(74, 67, 46);
+    background-color: rgba(95, 107, 76, 0.632);
 }
 nav {
-    background-color: rgb(74, 67, 46);
+    background-color: rgb(70, 69, 64);
     padding: 10px;
     text-align: center;
-    font-family: Arial, sans-serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 20px;
+    border-radius: 10px;
+    margin: 5px;
 }
 nav a {
-    color: blanchedalmond;
+    color: rgb(219, 219, 219);
     text-decoration: solid;
     padding: 20px;
     margin: 10px;
 }
 h1.title {
     text-align: center;
-    color: blanchedalmond;
+    color: rgb(219, 219, 219);
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 120px;
+    font-size: 100px;
 }
 h1 {
     text-align: center;
-    color: rgb(74, 67, 46);
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 60px;
-}
-h2 {
-    color: blanchedalmond;
+    color: rgb(70, 69, 64);
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 50px;
 }
+h2 {
+    color: rgb(219, 219, 219);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+}
 h3 {
-    color: blanchedalmond;
+    color: rgb(219, 219, 219);
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 30px;
 }
 h4 {
     text-align: center;
-    color: blanchedalmond;
+    color: rgb(219, 219, 219);
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 20px;
 }
@@ -70,18 +69,18 @@ img {
 
 }
 ol {
-    color: rgb(74, 67, 46);
+    color: rgb(70, 69, 64);
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 20px;
 }
 ul {
-    color: rgb(74, 67, 46);
+    color: rgb(70, 69, 64);
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 20px;
 }
 th {
     text-align: center;
-    color: rgb(74, 67, 46);
+    color: rgb(70, 69, 64);
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 20px;
 }
@@ -96,7 +95,7 @@ table {
     margin-right: auto;
     border-collapse: collapse;
     width: 50%;
-    border: 10px solid rgb(74, 67, 46);
+    border: 10px solid rgb(70, 69, 64);
     border-radius: 10px;
     background-color: blanchedalmond;
     padding: 10px;
@@ -105,13 +104,13 @@ table {
 }
 #main {
     text-align: center;
-    color: rgb(74, 67, 46);
+    color: rgb(70, 69, 64);
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 20px;
 }
 .flex-container {
     display: flex;
-    background-color: rgb(74, 67, 46);
+    background-color: rgb(70, 69, 64);
     justify-content: center;
     align-items: center;
     margin: 5px;
