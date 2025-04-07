@@ -32,7 +32,7 @@ function showMany()
 
 function changeColor()
 {
-    document.getElementById("main").style.color="red";
+    document.getElementById("main").style.color="salmon";
 }
     
 function changeBeans()

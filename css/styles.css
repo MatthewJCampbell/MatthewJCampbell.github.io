@@ -107,10 +107,14 @@ table {
     font-size: 20px;
 }
 #main {
-    text-align: center;
-    color: rgb(70, 69, 64);
+   color: rgb(70, 69, 64);
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 20px;
+    font-size: 40px;
+    text-align: center;
+    margin: 60px;
+    padding: 10px;
+    background-color: rgb(219, 219, 219);
+    border-radius: 10px;
 }
 .flexbox-container {
     display: flex;
