@@ -1,15 +1,15 @@
 
 body {
-    background-color: #afa291;
+    background-color: #a39c94;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 15px;
-}
+}/* css attributes for the body of the page*/ 
 nav {
     background-color: #ae2e2e;
     border-radius: 5px;
     text-align: center;
     padding: 3px;
-}
+}/* css attributes for the navigation of the page*/
 nav a {
     color: #dbdbdb;
     text-decoration: solid;
@@ -17,34 +17,38 @@ nav a {
     margin: auto;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 30px;
-}
+}/* css attributes for the navigation typography of the page*/
 h1.title {
     text-align: center;
     color: #dbdbdb;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 75px;
-}
-h1 {
+}/* css attributes for the title of the page including a class*/
+h1.subtitle {
     text-align: center;
     color: #464540;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
+    background-color: #dbdbdb;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 10px;
+}/* css attributes for the subtitle of the page including a class */
 h2 {
     color: #dbdbdb;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 40px;
-}
+}/* css attributes for heading 2 of the page */
 h3 {
     color: #dbdbdb;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 30px;
-}
+}/* css attributes for heading 3 of the page*/
 h4 {
     text-align: center;
     color: #dbdbdb;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 20px;
-}
+}/* css attributes for heding 4 of the page*/
 button {
     background-color: #dbdbdb;
     font-size: larger;
@@ -57,16 +61,16 @@ button {
     text-align: center;
     border-radius: 10px;
     cursor: pointer;
-}
+}/* css attributes for the buttons on the page*/
 img.mainImage { 
     width: 100%;
     height: auto;
     opacity: 0.9;
-}
+}/* css attributes for the main image of the page including a class */
 img.logo {
     width: auto;
     height: auto;
-}
+}/* css attributes for the logo of the page including a class*/
 img {
     display: block;
     margin-left: auto;
@@ -75,29 +79,29 @@ img {
     max-width: 80%;
     height: auto;
     border-radius: 20px;
-}
+}/* css attributes for the photos of the page*/
 ol {
     color: #464540;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 20px;
-}
+}/* css attributes for the ordered list of the page */
 ul {
     color: #464540;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 20px;
-}
+}/* css attributes for the unordered list of the page*/
 th {
     text-align: center;
     color: #464540;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 20px;
-}
+}/* css attributes for the table heading of the page*/
 td {
     text-align: center;
     color: #2e2e2e;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 15px;
-}
+}/* css attributes for the table of the page*/
 table {
     margin-left: auto;
     margin-right: auto;
@@ -108,7 +112,7 @@ table {
     padding: 10px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 20px;
-}
+}/* css attributes for the table of the page*/
 #main {
    color: #464540;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -118,7 +122,7 @@ table {
     padding: 10px;
     background-color: #dbdbdb;
     border-radius: 10px;
-}
+}/* css attributes for the id main of the page which applies to the flex box*/
 .flexbox-container {
     display: flex;
     background-color: #464540;
@@ -128,19 +132,19 @@ table {
     padding: 5px;
     border-radius: 10px;
     flex-wrap: wrap;
-}
+}/* css attributes for the flex box of the page*/
 p {
     text-align: center;
     color: #2e2e2e;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
     background-color: #dbdbdb;
-    border-radius: 10px;
+    border-radius: 5px;
     padding: 10px;
-}
+}/* css attributes for the paragraphs of the page*/
 footer {
     text-align: center;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 10px;
     margin-top: 20px;
-}
+}/* css attributes for the footer of the page*/
