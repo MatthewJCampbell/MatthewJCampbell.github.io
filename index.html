@@ -6,9 +6,10 @@
     <title>CoffeeAddicts.com</title>
 </head>
 <body>
-    <header><!-- This is the header -->
-        <h1 id="">Coffee<span style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: rgb(219, 219, 219) ;" >Addicts</span>.com</h1>
-    <nav><!-- This is the navigation bar which will be expanded later -->
+    <header><!-- This is the header with logo-->
+        <img class="logo" src="coffeeaddictionlogo.png" alt="coffee addicts logo">
+    </header>
+    <nav><!-- This is the navigation bar -->
         <ul>
             <li style="display: inline;" ><a href="index.html">HOME</a></li>
             <li style="display: inline;" ><a href="#">ABOUT</a></li>
@@ -18,21 +19,13 @@
     <div><!-- This div includes headings and a photo of a person performing latte art -->
         <h1 class="title" >WELCOME COFFEE ADDICTS</h1>
         <h1>Support Your Addiction With a Caffeine Subscription!</h1>
-    <div class="flexbox-container">
-        <div><button onclick="showMessage()">Click for Caffeine</button></div>
-        <div><button onclick="checkAge()">Enter The Party</button></div>
-        <div><button onclick="showMany()" >Try To Close Me</button></div>
-        <div><button onclick="changeColor()" >Change Colour</button></div>
-    </div>  
-    <div id="main">CHANGE MY COLOUR!</div>      
+    </div>    
             <br>
             <br>
         <img class="mainImage" src=pexels-chevanon-302899.jpg alt=”a photo of a person performing latte art”>
         <br>
         <div>
         <p>Coffee is one of the greatest things on this planet and you should look forward to drinking it every morning!</p>
-        </div>
-
     </div>
     <div><!-- This div includes a list of the benefits of coffee -->
         <h2>Benefits of <span style="color:rgb(70, 69, 64)">Coffee</span>:</h2>   
@@ -51,7 +44,7 @@
             </ul>
     </div>
     <div><!-- This div includes a table that shows a few different coffee options around calgary and their quality -->
-        <h4>Where to Get It and The Quality of <span style="color:rgb(70, 69, 64)">Coffee</span>:</h4>
+        <h4>Where to Get It and The Quality of <span style="color:#464540">Coffee</span>:</h4>
        
             <table>
                 <tr>
@@ -68,6 +61,13 @@
     </div>
     <br>
     <br>
+    <div class="flexbox-container">
+        <div><button onclick="showMessage()">Click for Caffeine</button></div>
+        <div><button onclick="checkAge()">Enter The Party</button></div>
+        <div><button onclick="showMany()" >Try To Close Me</button></div>
+        <div><button onclick="changeColor()" >Change Colour</button></div>
+    </div>  
+    <div id="main">CHANGE MY COLOUR!</div>  
 
     <div class="flexbox-container">
         <div><button onclick="changeBeans()"> SWAP BEANS</button></div>
@@ -78,8 +78,8 @@
     
     <br>
     <br>
-</body>
     <footer><!-- This is the footer -->
         <p>Copyright &copy; 2023 CoffeeAddicts.com</p>
     </footer>
+</body>
 </html>
