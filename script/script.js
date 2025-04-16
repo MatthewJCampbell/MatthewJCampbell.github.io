@@ -55,7 +55,19 @@ function hoverOut()
 }
 function buttonCounter() 
 {
-    let count = 0;
-    count = count + 1;
+    
     document.getElementById('counter').innerHTML = 'You clicked me ' + count + ' times';
 }
+function clickCounter() {
+    const x = document.getElementById("result");
+    if (typeof(Storage) !== "undefined") {
+      if (localStorage.clickcount) {
+        localStorage.clickcount = Number(localStorage.clickcount)+1;
+      } else {
+        localStorage.clickcount = 1;
+      }
+      x.innerHTML = "You have clicked the button " + localStorage.clickcount + " time(s)!";
+    } else {
+      x.innerHTML = "Sorry, no Web storage support!";
+    }
+  }
