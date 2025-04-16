@@ -44,3 +44,8 @@ function changeToCoffee()
 {
     document.getElementById("coffee").src="pexels-viktoria-alipatova-1083711-2074130.jpg";
 }
+
+function hoverButton() 
+{
+    document.getElementById("hoverButton").style.background = ‘red’
+}
