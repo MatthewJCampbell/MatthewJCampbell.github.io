@@ -53,11 +53,6 @@ function hoverOut()
 {
     document.getElementById("hoverButton").style.background="green";
 }
-function buttonCounter() 
-{
-    
-    document.getElementById('counter').innerHTML = 'You clicked me ' + count + ' times';
-}
 function clickCounter() {
     const x = document.getElementById("result");
     if (typeof(Storage) !== "undefined") {

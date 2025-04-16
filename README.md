@@ -31,3 +31,19 @@ css
 # designed a logo in illustrator and added it as an image to the header
 # adjusted colours to match branding package
 # removed all unnecessary html code from index.html
+javascript
+# created a javascript file
+# created an alert button using the showMessage function
+# made a button in html to create this effect and added an id
+# created a checkAge function that shows a pop up window with info
+# made a button in html to create this effect and added an id
+# created a showMany function that loops 3 times when clicked
+# made a button in html to create this effect and added an id
+# created a changeColor function to change the colour of a selection of text to salmon
+# made a button in html to create this effect and added an id
+# added text to index.html that will change colour and gave it an id
+# created two buttons in index.html to change the photo at the bottom of the page
+# created functions to make give functionality to these buttons to change the images
+# created hover functions for a button to change colour when hovering on it and moving off of it
+# created this button in index.html and gave it an id
+# created a clickCounter function from w3schools that creating an incrementing button and associated paragraph
