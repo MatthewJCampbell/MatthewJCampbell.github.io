@@ -45,7 +45,17 @@ function changeToCoffee()
     document.getElementById("coffee").src="pexels-viktoria-alipatova-1083711-2074130.jpg";
 }
 
-function hoverButton() 
+function hoverOver() 
 {
-    document.getElementById("hoverButton").style.background = ‘red’
+    document.getElementById("hoverButton").style.background="red";
+}
+function hoverOut() 
+{
+    document.getElementById("hoverButton").style.background="green";
+}
+function buttonCounter() 
+{
+    let count = 0;
+    count = count + 1;
+    document.getElementById('counter').innerHTML = 'You clicked me ' + count + ' times';
 }
